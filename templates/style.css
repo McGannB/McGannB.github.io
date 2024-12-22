@@ -1,0 +1,154 @@
+body {
+  font-family: 'Source Code Pro', monospace; 
+  background-color: #1E1E1E; 
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #282828;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #00FF00; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00FF00; 
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+#about {
+  background-color: #282828;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+#about img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-item {
+  background-color: #444;
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  width: 150px;
+}
+
+#projects {
+  background-color: #282828;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.project-item {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 2rem;
+}
+
+.project-item a {
+  display: inline-block;
+  background-color: #00FF00; 
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.project-item a:hover {
+	background-color: #00CC00;
+}
+
+#contact {
+  background-color: #282828;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 1rem;
+}
+
+#contact a {
+  display: inline-block; /* Make links block-level elements */
+  padding: 0.5rem 1rem; /* Add padding to buttons */
+  background-color: #00FF00; /* Green background for buttons */
+  color: #000;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+#contact a:hover {
+  background-color: #00CC00; /* Slightly lighter green on hover */
+}
+
+footer {
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
